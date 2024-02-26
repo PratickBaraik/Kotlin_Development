@@ -29,4 +29,33 @@ fun main() {
   println("Double: $myDouble")
   println("Char: $aChar")
 
+  // using var (mutable type) to declare variables
+  // explicit declaration of variables
+  var mySecString: String = "Android"
+  var mySecInteger: Int = 4433
+  var mySecBoolean: Boolean = false
+  var mySecDouble: Double = 452.11883
+  var mySecChar: Char = 'Z'
+  // declaring the float type
+  var myFloat: Float = 33.78f
+
+  // printing the value
+  println("mySecString: $mySecString")
+  println("mySecInteger: $mySecInteger")
+  println("mySecBoolean: $mySecBoolean")
+  println("mySecDouble: $mySecDouble")
+  println("mySecChar: $mySecChar")
+  println("myFloat: $myFloat")
+
+  // changing the values of var data types, coz it is mutable
+  mySecString = "Mobile Phone"
+  mySecInteger = 890
+  
+  // printing the changes
+  println("mySecString: $mySecString")
+  println("mySecInteger: $mySecInteger")
+
+  // finding the type of data 
+  println(mySecString::class.simpleName)
+  println(mySecInteger::class.simpleName)
 }
