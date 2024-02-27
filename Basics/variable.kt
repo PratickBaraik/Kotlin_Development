@@ -58,4 +58,19 @@ fun main() {
   // finding the type of data 
   println(mySecString::class.simpleName)
   println(mySecInteger::class.simpleName)
+
+  // declaring nullable variables
+  var exampleString: String? = null
+
+  // printing the data
+  println("My example string: $exampleString") // nullable variable can be printed
+
+  // assigning null to other variables
+  var nullBoolean: Boolean? = null
+  println("Nullable boolean: $nullBoolean")
+  // assigning a value to nullBoolean
+  nullBoolean = true
+  println("Nullable boolean has a value: $nullBoolean")
+  
+
 }
