@@ -21,6 +21,7 @@ fun main() {
   val aBoolean: Boolean = false
   val myDouble: Double = 23.67
   val aChar: Char = 'A'
+  val myLongData: Long = 1_000_000_000_000_000
 
   // printing the values
   println("My string is: $myString")
@@ -28,6 +29,7 @@ fun main() {
   println("Boolean: $aBoolean")
   println("Double: $myDouble")
   println("Char: $aChar")
+  println("My long value: $myLongData")
 
   // using var (mutable type) to declare variables
   // explicit declaration of variables
@@ -71,6 +73,4 @@ fun main() {
   // assigning a value to nullBoolean
   nullBoolean = true
   println("Nullable boolean has a value: $nullBoolean")
-  
-
 }
