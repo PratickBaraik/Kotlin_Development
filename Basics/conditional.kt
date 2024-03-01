@@ -22,6 +22,7 @@ fun main() {
     print("Please provide marks")
   }
 
+  println()
   // using if-else block to find grades using ranges: 'in'
   var secStudentMarks: Int? = null
 
@@ -41,5 +42,5 @@ fun main() {
     print("Please provide marks")
   }
 
-  
+
 }
