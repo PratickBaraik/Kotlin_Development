@@ -42,5 +42,17 @@ fun main() {
     print("Please provide marks")
   }
 
+  println()
+  // using when keyword
+  var thirdStudentMarks: Int? = null
 
+  var grade = when(thirdStudentMarks) {
+    in 90..100 -> "A"
+    in 80..90 -> "B"
+    in 70..80 -> "C"
+    in 60..70 -> "D"
+    else -> "Marks should be between 1 to 100"
+  }
+
+  println("Grade: $grade")
 }
