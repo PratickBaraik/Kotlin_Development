@@ -73,4 +73,23 @@ fun main() {
   for(value in 1 until 6) {
     println(value)
   }
+
+  // printing value in reverse order
+  println("Using downTo to print values in reverse order")
+  for(value in 5 downTo 1) {
+    println(value)
+  }
+  
+  // declaring while and do-while loop
+  var myNum = 5
+  println("Using while loop")
+  while(myNum > 0) {
+    println("Number: $myNum")
+    myNum--
+  }
+
+  println("Using do-while loop")
+  do {
+    println("Number: $myNum")
+  } while(myNum > 0)
 }
