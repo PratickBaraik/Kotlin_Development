@@ -61,4 +61,16 @@ fun main() {
   myList.forEachIndexed{
     index, value -> println("$index -> $value")
   }
+
+  // using IntRange 
+  println("Making use of IntRange")
+  for(value in 1..20 step 4) {
+    println(value)
+  }
+
+  // using until 
+  println("using until to print till the 2nd last value")
+  for(value in 1 until 6) {
+    println(value)
+  }
 }
