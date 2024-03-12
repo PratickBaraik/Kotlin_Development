@@ -1,14 +1,21 @@
 fun main() {
   sayHello();
   myGreeting("Pratick");
+  listGreeting(listOf("Sujal", "Ranu", "Satyam", "Mohit", "Jeetu"));  
 }
 
 // sayHello() function definition
 fun sayHello() {
-  print("Hello\n");
+  println("Hello");
 }
 
 // my greeting function definition
 fun myGreeting(name: String) {
-  print("Hello $name\n");
+  println("Hello $name");
+}
+
+fun listGreeting(names: List<String>) {
+    names.forEach {
+        println("Hello, $it")
+    }
 }
