@@ -6,6 +6,7 @@ fun main() {
   myVarArgFun("One", "Two", "Three", "Fout");
   // using named parameter
   twoPara(message = "Believe in yourself", name = "God");
+  println("Sum = ${sum(num1 = 20, num2 = 30)}");
 }
 
 // sayHello() function definition
@@ -46,4 +47,10 @@ fun myVarArgFun(vararg items: String) {
 // function with two parameters
 fun twoPara(message: String, name: String) {
   println("$message - $name");
+}
+
+// function with return type
+fun sum(num1: Int, num2: Int): Int {
+    val sum = num1 + num2
+    return sum
 }
