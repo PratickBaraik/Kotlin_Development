@@ -4,6 +4,8 @@ fun main() {
   listGreeting(listOf("Sujal", "Ranu", "Satyam", "Mohit", "Jeetu"));  
   anyList(listOf("String", true, 123, 117893245, 88.43, 'A'));
   myVarArgFun("One", "Two", "Three", "Fout");
+  // using named parameter
+  twoPara(message = "Believe in yourself", name = "God");
 }
 
 // sayHello() function definition
@@ -39,4 +41,9 @@ fun myVarArgFun(vararg items: String) {
   items.forEach {
     println("$it");
   }
+}
+
+// function with two parameters
+fun twoPara(message: String, name: String) {
+  println("$message - $name");
 }
