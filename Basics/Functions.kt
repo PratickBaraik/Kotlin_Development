@@ -3,6 +3,7 @@ fun main() {
   myGreeting("Pratick");
   listGreeting(listOf("Sujal", "Ranu", "Satyam", "Mohit", "Jeetu"));  
   anyList(listOf("String", true, 123, 117893245, 88.43, 'A'));
+  myVarArgFun("One", "Two", "Three", "Fout");
 }
 
 // sayHello() function definition
