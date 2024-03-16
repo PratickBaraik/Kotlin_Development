@@ -1,5 +1,5 @@
 fun main() {
-  // defining a simple array in kotlin
+  // defining a simple array which only contains string values in kotlin
   val myArray: Array<String> = arrayOf("Pratick", "Atul", "Vicky", "Vishal", "Sagar")
   // printing the elements of array turn by turn
   println("1st element: ${myArray[0]}");
