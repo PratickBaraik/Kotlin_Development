@@ -26,5 +26,15 @@ fun main() {
 
     // Printing the updated mutable map
     println("\nUpdated mutable map:")
-    printMap(myMutableMap)
+    printMap(myMutableMap);
+
+    // getting key of a specific value using get function
+    print("Key of Table from mutable map: ")
+    println(myMutableMap.get("Table"))
+
+    // removing a value from mutable map
+    myMutableMap.remove("Table")
+
+    // printing the updated mutable map
+    printMap(myMutableMap);
 }
