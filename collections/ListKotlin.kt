@@ -1,4 +1,6 @@
 fun main() {
+
+  // a kotlin list can contain duplicate values
     // defining a simple list using the list function
     val myList = listOf(1, 2, 'a', 'B', "Human", "Animal")
 
