@@ -29,6 +29,14 @@ fun main() {
 
     // printing the sorted list
     print_list(myMutableList)
+
+    // sorting the list in descending order
+    myMutableList.sortWith(compareByDescending{
+      it.toString()
+    });
+
+    // printing the sorted list
+    print_list(myMutableList)
 }
 
 // defining a print_list function
